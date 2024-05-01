@@ -1,0 +1,19 @@
+.paymentBlock  {
+    background: #4611a7;
+    padding: 50px 20px 20px;
+}
+.paymentImages {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.disclaimerText {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 30px 10px 10px;
+    opacity: .8;
+    text-align: center;
+}
