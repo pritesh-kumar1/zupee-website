@@ -1,9 +1,10 @@
 import React from "react";
+import styles from './styles.module.css';
 
 const FeatureList = () => {
   return (
     <>
-      <div className="featurelist_wrapper">
+      <div className={styles.featurelistWrapper}>
         <div className="heading_title_wrapper">
           <h2>India’s Most Trusted Real Money Games</h2>
         </div>
