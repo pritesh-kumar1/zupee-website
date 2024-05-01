@@ -7,11 +7,12 @@
     background: #ffe800;
     z-index: 1;
 }
-.loginBox {
+.logoBox {
     display: flex;
     align-items: center;
     height: 100%;
 }
+
 
 @media (max-width: 767px) {
     .fantasyHeaderSection {
@@ -22,6 +23,10 @@
         max-width: 140px;
         height: auto;
         display: block
+    }
+    .logoBox {
+        margin: auto;
+        justify-content: center;
     }
 
     .fantasy-home-banner {

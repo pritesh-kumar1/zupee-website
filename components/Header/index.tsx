@@ -6,7 +6,7 @@ const Header = () => {
         <>
             <header className={styles.fantasyHeaderSection}>
                 <div className={styles.customGridContainer}>
-                    <div className={styles.loginBox}>
+                    <div className={styles.logoBox}>
                         <img decoding="async" className="logo" src="https://static-perf1.zupee.com/wp-content/uploads/2024/01/real-money-earning-app-zupee-logo.png" alt="Best cash earning games on Zupee" width="180px" height="66px" />
                     </div>
                 </div>  

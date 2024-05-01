@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import styles from '../styles/main.module.css';
+import FeatureList from '../components/FeatureList';
 
 export default function Home() {
   return (
@@ -11,7 +12,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Footer />
+      <FeatureList />
+      <div classname={styles.footerMain}>
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -1,6 +1,12 @@
-.paymentBlock  {
+.footer  {
     background: #4611a7;
     padding: 50px 20px 20px;
+}
+.customGridContainer {
+    padding: 0 15px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
 }
 .paymentImages {
     list-style: none;
@@ -16,4 +22,17 @@
     padding: 30px 10px 10px;
     opacity: .8;
     text-align: center;
+}
+@media (max-width: 767px) {
+    .footer {
+        padding: 10px 10px 113px 10px;
+    }
+    .paymentImage {
+        padding: 10px;
+    }
+    .disclaimerText {
+        font-size: 15px;
+        line-height: 22px;
+        padding: 10px 0 0;
+    }
 }
