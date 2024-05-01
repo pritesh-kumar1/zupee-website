@@ -11,7 +11,8 @@
 }
 @media (max-width: 767px) {
     .footerMain {
-        width: 100%;   
+        width: 100%;  
+        display: flex; 
     }
 }
 @media (min-width: 576px) {

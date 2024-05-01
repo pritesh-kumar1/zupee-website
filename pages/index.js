@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <Header />
       <FeatureList />
-      <div classname={styles.footerMain}>
+      <div className={styles.footerMain}>
         <Footer />
       </div>
     </div>
